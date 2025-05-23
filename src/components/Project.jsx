@@ -16,7 +16,7 @@ const Project = () => {
             <div className="relative w-full md:w-1/3">
               <picture>
                 <source
-                  media="(min-width:375"
+                  media="(max-width:639px)"
                   srcSet={assets.mobile_deep_earth}
                   //   className="w-1/3 h-24 border border-red-500"
                 />
@@ -34,7 +34,7 @@ const Project = () => {
             <div className="relative w-full md:w-1/3">
               <picture>
                 <source
-                  media="(min-width:375"
+                  media="(max-width:639px)"
                   srcSet={assets.mobile_night_arcade}
                 />
                 <img
@@ -52,7 +52,7 @@ const Project = () => {
             <div className="relative w-full md:w-1/3">
               <picture>
                 <source
-                  media="(min-width:375"
+                  media="(max-width:639px)"
                   srcSet={assets.mobile_soccer_team}
                 />
                 <img
@@ -68,7 +68,7 @@ const Project = () => {
             </div>
             <div className="relative w-full md:w-1/3">
               <picture>
-                <source media="(min-width:375" srcSet={assets.mobile_grid} />
+                <source media="(max-width:639px)" srcSet={assets.mobile_grid} />
                 <img
                   src={assets.desktop_grid}
                   alt=""
@@ -86,7 +86,7 @@ const Project = () => {
             <div className="relative w-full md:w-1/3">
               <picture>
                 <source
-                  media="(min-width:375"
+                  media="(max-width:639px)"
                   srcSet={assets.mobile_from_above}
                 />
                 <img
@@ -103,7 +103,7 @@ const Project = () => {
             <div className="relative w-full md:w-1/3">
               <picture>
                 <source
-                  media="(min-width:375"
+                  media="(max-width:639px)"
                   srcSet={assets.mobile_pocket_borealis}
                 />
                 <img
@@ -120,7 +120,7 @@ const Project = () => {
             <div className="relative w-full md:w-1/3">
               <picture>
                 <source
-                  media="(min-width:375"
+                  media="(max-width:639px)"
                   srcSet={assets.mobile_curiosity}
                 />
                 <img
@@ -136,7 +136,10 @@ const Project = () => {
             </div>
             <div className="relative w-full md:w-1/3">
               <picture>
-                <source media="(min-width:375" srcSet={assets.mobile_fisheye} />
+                <source
+                  media="(max-width:639px)"
+                  srcSet={assets.mobile_fisheye}
+                />
                 <img
                   src={assets.desktop_fisheye}
                   alt=""
