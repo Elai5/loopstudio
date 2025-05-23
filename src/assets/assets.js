@@ -9,6 +9,7 @@ import desktop_interactive from "./desktop/image-interactive.jpg";
 import desktop_night_arcade from "./desktop/image-night-arcade.jpg";
 import desktop_pocket_borealis from "./desktop/image-pocket-borealis.jpg";
 import desktop_soccer_team from "./desktop/image-soccer-team.jpg";
+import desktop from "./desktop/desktop.jpg";
 
 import mobile_curiosity from "./mobile/image-curiosity.jpg";
 import mobile_deep_earth from "./mobile/image-deep-earth.jpg";
@@ -22,14 +23,15 @@ import mobile_pocket_borealis from "./mobile/image-pocket-borealis.jpg";
 import mobile_soccer_team from "./mobile/image-soccer-team.jpg";
 
 import logo from "./logo.svg";
-import twitter from "./twitter.svg";
-import pinterest from "./pinterest.svg";
-import instagram from "./instagram.svg";
+import twitter from "./icon-twitter.svg";
+import pinterest from "./icon-pinterest.svg";
+import instagram from "./icon-instagram.svg";
 import hamburger from "./icon-hamburger.svg";
-import facebook from "./facebook.svg";
+import facebook from "./icon-facebook.svg";
 import icon_close from "./icon-close.svg";
 
 export const assets = {
+  desktop,
   desktop_curiosity,
   desktop_deep_earth,
   desktop_fisheye,
