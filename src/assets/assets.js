@@ -22,11 +22,11 @@ import mobile_pocket_borealis from "./mobile/image-pocket-borealis.jpg";
 import mobile_soccer_team from "./mobile/image-soccer-team.jpg";
 
 import logo from "./logo.svg";
-import twitter from "./twitter.svg";
-import pinterest from "./pinterest.svg";
-import instagram from "./instagram.svg";
+import twitter from "./icon-twitter.svg";
+import pinterest from "./icon-pinterest.svg";
+import instagram from "./icon-instagram.svg";
 import hamburger from "./icon-hamburger.svg";
-import facebook from "./facebook.svg";
+import facebook from "./icon-facebook.svg";
 import icon_close from "./icon-close.svg";
 
 export const assets = {
