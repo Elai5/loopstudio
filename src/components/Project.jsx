@@ -9,7 +9,9 @@ const Project = () => {
       <div className="w-full flex flex-col">
         <div className="flex w-full justify-between mb-5">
           <h2 className="text-sm md:text-4xl font-light">OUR CREATIONS</h2>
-          <button className="border text-xs px-2 md:px-8 py-1">SEE ALL</button>
+          <button className="border text-xs px-2 md:px-8 py-1 hover:cursor-pointer hover:bg-black hover:text-white ">
+            SEE ALL
+          </button>
         </div>
         <div className="w-full flex flex-col gap-8">
           <div className="w-full flex flex-col md:flex-row gap-5">
