@@ -6,10 +6,10 @@ import { assets } from "../assets/assets";
 const Navbar = () => {
   return (
     <div className="absolute top-0 left-0 w-full z-10">
-      <div className="container mx-auto flex justify-between items-center gap-8 py-4 px-6 md:px-20 lg:px-32 bg-transparent">
-        <img className="h-1/2" src={assets.logo} alt="LogoIcon" />
+      <div className="container w-full mx-auto flex justify-between gap-8 py-8 px-6 md:px-20 lg:px-10">
+        <img className="" src={assets.logo} alt="LogoIcon" />
         <ul className="hidden md:flex gap-7 text-white text-2xl">
-          <li className="cursor-poiner">
+          <li className="cursor-poiner hover:text-[hsl(0,0%,85%)]">
             <a href="">About</a>
           </li>
           <li>
@@ -30,7 +30,7 @@ const Navbar = () => {
         </div>
       </div>
       {/* mobile nav */}
-      <div className="hidden h-screen bg-black text-white">
+      <div className="hidden h-screen bg-black text-[hsl(0,0%,100%)]">
         <img src={assets.icon_close} alt="" className="absolute right-0 p-4" />
         <ul className="md:flex p-5 gap-7 text-white text-xl">
           <li className="cursor-poiner">
