@@ -5,18 +5,23 @@ export default function IntroductionSection() {
   const props = {
     title: 'The leader in interactive VR',
     text: 'Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe.Our award- winning creations have transformed businesses through digital experiences that bind to their brand.',
-    imgSrc: assets.desktop_interactive,
     imgAlt: 'Man using VR headset',
   };
 
   return (
     <section className="introduction-section grid md:grid-cols-2 sm:grid-cols-1 gap-12 text-center md:text-left md:gap-0 lg:p-20 mx-auto p-10">
       <div className="image-container">
-        <img
-          src={props.imgSrc}
-          alt={props.imgAlt}
-          className="introduction-image w-full h-auto object-cover"
-        />
+        <picture>
+          <source
+            srcSet={assets.desktop_interactive}
+            media="(min-width: 768px)"
+          />
+          <img
+            src={assets.mobile_interactive}
+            alt={props.imgAlt}
+            className="introduction-image w-full h-auto object-cover"
+          />
+        </picture>
       </div>
       <div className="text-content flex flex-col gap-5 bg-white font-alata md:p-10 lg:p-20 md:-translate-x-38 md:translate-y-40">
         <h2 className="introduction-title font-josefin uppercase text-3xl">
