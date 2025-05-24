@@ -25,6 +25,30 @@ const Navbar = () => {
             <a href="">Support</a>
           </li>
         </ul>
+        <div>
+          <img src={assets.hamburger} alt="" className="lg:hidden" />
+        </div>
+      </div>
+      {/* mobile nav */}
+      <div className="hidden h-screen bg-black text-white">
+        <img src={assets.icon_close} alt="" className="absolute right-0 p-4" />
+        <ul className="md:flex p-5 gap-7 text-white text-xl">
+          <li className="cursor-poiner">
+            <a href="">About</a>
+          </li>
+          <li>
+            <a href="">Careers</a>
+          </li>
+          <li>
+            <a href="">Events</a>
+          </li>
+          <li>
+            <a href="">Products</a>
+          </li>
+          <li>
+            <a href="">Support</a>
+          </li>
+        </ul>
       </div>
     </div>
   );

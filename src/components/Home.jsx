@@ -24,11 +24,12 @@ export const Home = () => {
         />
       </picture>
       <>
-        <div className="absolute inset-0">
+        <div className="absolute inset-0 px-20">
           <Navbar />
-          <div className="flex min-h-screen px-20 py-10">
-            <div className="py-20 flex items-start lg:items-center lg:py-30 text-white lg:p-8 w-full h-1/2">
-              <h1 className="flex flex-col lg:text-5xl border border-white p-8 ">
+          <div className="w-full flex min-h-screen py-30 lg:px-10">
+            <div className="w-full lg:w-3/4 text-left text-white">
+              {/* <h1 className="text-4xl max-w-full p-6 flex flex-col border bg-transparent border-white lg:p-8 lg:text-5xl font-josefin"> */}
+              <h1 className="text-2xl sm:text-3xl lg:text-5xl w-full p-4 sm:p-6 lg:p-8 flex flex-col border border-white font-josefin break-words">
                 <span>IMMERSIVE</span>
                 <span>EXPERIENCE</span>
                 <span>THAT DELIVER</span>
