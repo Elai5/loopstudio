@@ -6,14 +6,14 @@ import { assets } from "../assets/assets";
 
 export const Home = () => {
   return (
-    <div
+    <section
       //   className="mb-4 bg-no-repeat bg-contain flex items-center w-full overflow-hidden"
       //   className="relative w-full overflow-hidden mb-4"
       //   style={{
       //     backgroundImage: `url(${assets.desktop})`,
       //     border: "solid red",
       //   }}
-      className="relative w-full overflow-hidden mb-4"
+      className="home-section relative w-full overflow-hidden mb-4"
     >
       <picture>
         <source media="(min-width: 640px)" srcSet={assets.desktop_hero} />
@@ -37,6 +37,6 @@ export const Home = () => {
           </div>
         </div>
       </>
-    </div>
+    </section>
   );
 };
