@@ -19,8 +19,8 @@ export default function Footer() {
   }
 
   return (
-    <footer className='footer bg-black text-white md:px-40 py-20 sm:px-20 flex md:flex-row sm:flex-col justify-between items-center md:gap-0 sm:gap-10'>
-      <section className='footer-section flex flex-col md:items-start sm:items-center md:gap-6 sm:gap-8'>
+    <footer className='footer bg-black text-white px-20 lg:px-40 py-20 flex flex-col lg:flex-row justify-between items-center gap-10 lg:gap-0'>
+      <section className='footer-section flex flex-col items-center lg:items-start gap-8 lg:gap-6'>
         <div className="footer-logo">
           <img
             src={footerProps.logo}
@@ -33,9 +33,9 @@ export default function Footer() {
           aria-label="Secondary Navigation"
           role="navigation"
         >
-          <ul className="flex md:flex-row sm:flex-col md:gap-8 sm:gap-2 md:text-left sm:text-center">
+          <ul className="flex flex-col lg:flex-row gap-2 lg:gap-8 text-center lg:text-left">
             {footerProps.secondaryNav.map((item, index) => (
-              <li key={index} className='footer-item md:p-0 sm:p-2'>
+              <li key={index} className='footer-item lg:p-0 sm:p-2'>
                 <a href={item.href} className="footer-item-link text-sm">
                   {item.name}
                 </a>
@@ -44,12 +44,12 @@ export default function Footer() {
           </ul>
         </nav>
       </section>
-      <section className='social-icons flex flex-col md:items-end sm:items-center gap-6 font-alata'>
+      <section className='social-icons flex flex-col items-center lg:items-end gap-6 font-alata'>
         <ul className='flex gap-5'>
           {footerProps.socialIcons.map((icon, index) => (
             <li>
               <a href="#" key={index} className="social-icon">
-                <img src={icon.src} alt={icon.alt} className="w-6 h-6" />
+                <img src={icon.src} alt={icon.alt} className="w-6 h-auto" />
               </a>
             </li>
           ))}
