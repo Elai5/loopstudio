@@ -28,7 +28,7 @@ export const Home = () => {
           <Navbar />
           <div className="w-full flex min-h-screen py-30 lg:px-10 lg:py-40">
             <div className="w-full lg:w-3/4 md:w-1/2 text-left text-white">
-              <h1 className="w-full lg:w-3/4 max-w-full flex flex-col gap-2 text-5xl lg:text-4xl md:text-4xl font-josefin border border-white p-2 lg:p-4 sm:p-2 ">
+              <h1 className="w-full lg:w-3/4 max-w-full flex flex-col gap-2 text-5xl lg:text-7xl md:text-4xl font-josefin border border-white p-2 lg:p-4 sm:p-2 ">
                 <span>IMMERSIVE</span>
                 <span>EXPERIENCE</span>
                 <span>THAT DELIVER</span>
