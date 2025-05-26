@@ -1,12 +1,12 @@
 /** @format */
 
-import React from "react";
+// import React from "react";
 import React, { useState } from "react";
 
 import { assets } from "../assets/assets";
 
 const Navbar = () => {
-  const [isMobileNavOpen, setIsMobileNavOpen] = useState(fasle);
+  const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
   return (
     <div className="absolute top-0 left-0 w-full z-10">
       <div className="container w-full mx-auto flex justify-between gap-8 py-8 px-6 md:px-20 lg:px-10">
@@ -59,7 +59,7 @@ const Navbar = () => {
         </ul>
       </div> */}
       {isMobileNavOpen && (
-        <div className="fixed inset-0 h-1/2 bg-black text-white flex flex-col z-20 p-6">
+        <div className="fixed inset-0 h-screen bg-black text-white flex flex-col z-20 p-6">
           <div className="flex justify-end">
             <img
               src={assets.icon_close}
